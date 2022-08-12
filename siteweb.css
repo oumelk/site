@@ -1,0 +1,152 @@
+body
+{
+	background-image: url('fond.PNG');
+	background-attachment: fixed;
+	font-style: normal;
+	font-family:'Trebuchet MS',Arial,sans-serif;
+	width: 1000px;
+}
+h2
+{
+	font-size:15px;
+	font-style: normal;
+	font-family: 'Courier New';
+	font-weight: normal;
+	text-decoration: underline;
+}
+.h1header
+{
+	font-style: italic; 
+	font-size: 60px;
+	margin-left: 280px;
+    text-decoration: underline;
+	font-style:bold;
+	color: blue;
+
+
+}
+.photo
+{ 
+	width: 1000px;
+}
+
+#bloc_page
+{
+    width: 1000px;
+    margin: auto;
+}
+header
+{
+	background: url('separateur.png') repeat-x bottom;
+	display: flex;
+	align-items:flex-end;
+}
+#logo
+{
+	flex-direction: column;
+}
+#nav
+{
+	display: flex;
+	flex-direction: row;
+	align-items:flex-end;
+}
+nav
+{
+	display:flex;
+}
+#info
+{
+    float:left;
+    margin-right:10px;
+    margin-left:650px;   
+
+}
+#info 
+{
+	font-size: 35px;
+	position:absolute;
+	top: 35px;
+	left: 0px;
+}
+
+a
+{
+	color:black;
+	text-decoration: none;
+}
+table,td,th
+{
+	border: 2px solid;
+
+}
+table
+{
+   border-collapse: collapse;
+}  
+aside
+{
+	padding: 10px;
+	position:absolute;
+	top: 480px;
+	left: 1010px;
+	border: 3px solid grey;
+	color:white;
+	background: grey;
+	border-radius: 15px;
+}
+footer
+{
+	display: flex;
+	background:url('ico_top.png') no-repeat top center, url('separateur.png') repeat-x top;
+}
+.mail
+{
+	font-weight: bold;
+}
+article, aside
+{
+    text-align: justify;
+}
+#bulle img
+{
+    position:absolute;
+	top: 350px;
+	left: 900px;
+}
+caption
+{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.cor
+{
+	font-size:15px;
+	font-style: normal;
+	font-family: 'Courier New';
+	font-weight: normal;
+}
+.tof
+{
+	font-size:15px;
+	font-style: normal;
+	font-family: 'Courier New';
+	font-weight: normal;
+	position:absolute;
+	top: 1040px;
+	left: 300px;
+}
+.socialmedia
+{
+	position:absolute;
+	top: 1125px;
+	left: 35px;
+}
+article h1
+{
+    text-decoration: underline ;
+}
+
+
+
